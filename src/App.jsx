@@ -7,13 +7,19 @@ import ShowInfo from "./Destructuring"
 import Heads from './Heading'
 import Sums from './Destructuring1'
 import Ages from './Ternary'
+import Button from './Button'
+import Buttonn from './Arrow_function'
+import Nott from './Images'
 function App() {
  
 
   return (
     <>
-    
+    <Button />
+    <br />
     <Ages />
+    <br />
+    <Buttonn />
     <br />
     <Show />
     <br />
@@ -29,8 +35,9 @@ function App() {
     <br />
     // <Sums />
     
-    
-    
+    <br />
+
+    <Nott />
     </>
     
     
