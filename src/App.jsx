@@ -1,12 +1,16 @@
 
 import List from './List'
 import Show from './Map'
+import Reduce from "./Reduce"
+import Longest_Word from './String'
 function App() {
  
 
   return (
-     <Show />
+    //  <Show />
     // <List />
+    // <Reduce />
+    <Longest_Word />
     
   )
 }
