@@ -1,15 +1,15 @@
 
-import List from './List'
-import Show from './Map'
-import Reduce from "./Reduce"
-import Longest_Word from './String'
-import ShowInfo from "./Destructuring"
-import Heads from './Heading'
-import Sums from './Destructuring1'
-import Ages from './Ternary'
-import Button from './Button'
-import Buttonn from './Arrow_function'
-import Nott from './Images'
+import List from './components/List'
+import Show from './components/Map'
+import Reduce from "./components/Reduce"
+import Longest_Word from './components/String'
+import ShowInfo from "./components/Destructuring"
+import Heads from './components/Heading'
+import Sums from './components/Destructuring1'
+import Ages from './components/Ternary'
+import Button from './components/Button'
+import Buttonn from './components/Arrow_function'
+import Nott from './components/Images'
 import AdminPanel from './components/AdminPanel'
 import Login_from from './components/Login_from'
 import List_item from './components/List_item'
@@ -32,6 +32,7 @@ function App() {
     <Ages />
     <br />
     <Buttonn />
+    
     <br />
     <Show />
     <br />
@@ -47,6 +48,8 @@ function App() {
     <br />
     // <Sums />
     
+    <br />
+    <Event_handler /> 
     <br />
     <Event_handler /> 
     <br />
