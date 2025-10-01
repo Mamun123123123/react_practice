@@ -12,7 +12,8 @@ import Buttonn from './Arrow_function'
 import Nott from './Images'
 import AdminPanel from './components/AdminPanel'
 import Login_from from './components/Login_from'
-
+import List_item from './components/List_item'
+import Event_handler from './components/Event_handler'
 function App() {
  
   const isLoggedIN = false
@@ -24,6 +25,8 @@ function App() {
   // }
   return (
     <>
+    < List_item />
+    <br />
     <Button />
     <br />
     <Ages />
@@ -45,7 +48,9 @@ function App() {
     // <Sums />
     
     <br />
-
+    <Event_handler /> 
+    <br />
+    <br />
     <Nott />
     <br />
     <br />
