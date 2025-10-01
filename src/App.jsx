@@ -15,6 +15,16 @@ import Login_from from './components/Login_from'
 import List_item from './components/List_item'
 import Event_handler from './components/Event_handler'
 import Counter from './components/Counter'
+import Team_list from './components/Team_list'
+
+const members = [
+  //  {id:1,name:"k",role:"Fronted",image:"https://randomuser.me/api/portraits/women/66.jpg"},
+  {id:2,name:"L",role:"F",image:"https://randomuser.me/api/portraits/women/63.jpg"},
+  {id:3,name:"M",role:"N",image:"https://randomuser.me/api/portraits/men/1.jpg"},
+  {id:4,name:"W",role:"X",image:"https://randomuser.me/api/portraits/women/63.jpg"}
+
+
+]
 function App() {
  
   const isLoggedIN = false
@@ -26,7 +36,24 @@ function App() {
   // }
   return (
     <>
-    <Counter />
+      <div>
+      <h1 className='text-center mb-6 font-bold'>team member list</h1>
+
+      </div>
+      
+      <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6'>
+        {
+      members.map(item => {
+        return <Team_list key={item.id} 
+        name={item.name} 
+        role={item.role}
+         image={item.image}/>
+      })
+    }
+      </div>
+    
+    
+    {/* <Counter /> */}
     {/* < List_item /> */}
     <br />
     {/* <Button /> */}
