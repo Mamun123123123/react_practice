@@ -9,11 +9,12 @@ import Sums from './components/Destructuring1'
 import Ages from './components/Ternary'
 import Button from './components/Button'
 import Buttonn from './components/Arrow_function'
-import Nott from './components/Images'
+
 import AdminPanel from './components/AdminPanel'
 import Login_from from './components/Login_from'
 import List_item from './components/List_item'
 import Event_handler from './components/Event_handler'
+import Counter from './components/Counter'
 function App() {
  
   const isLoggedIN = false
@@ -25,40 +26,41 @@ function App() {
   // }
   return (
     <>
-    < List_item />
+    <Counter />
+    {/* < List_item /> */}
     <br />
-    <Button />
+    {/* <Button /> */}
     <br />
-    <Ages />
+    {/* <Ages /> */}
     <br />
-    <Buttonn />
+    {/* <Buttonn /> */}
     
     <br />
-    <Show />
+    {/* <Show /> */}
     <br />
-    // <List />
+    {/* // <List /> */}
     <br />
-    // <Reduce />
+    {/* // <Reduce /> */}
     <br />
-    // <Longest_Word />
+    {/* // <Longest_Word /> */}
     <br />
-    // <ShowInfo />
+    {/* // <ShowInfo /> */}
     <br />
-    // <Heads/>
+    {/* // <Heads/> */}
     <br />
-    // <Sums />
+    {/* // <Sums /> */}
     
     <br />
-    <Event_handler /> 
+    {/* <Event_handler />  */}
     <br />
-    <Event_handler /> 
+    {/* <Event_handler />  */}
     <br />
     <br />
-    <Nott />
+   
     <br />
     <br />
      {/* {content} */}
-    {isLoggedIN ? (<AdminPanel />):(<Login_from />) }
+    {/* {isLoggedIN ? (<AdminPanel />):(<Login_from />) } */}
     </>
     
     
