@@ -20,7 +20,8 @@ import Quize from './components/Quize'
 import Sum from './async'
 import M from './map'
 import To_do from './to_do'
-import Exercise3 from './Event/Exercise3'
+import Exercise5 from './Event/Exercise5'
+import MyForm from './Form/MyForm'
 import { useState } from 'react'
 // const members = [
 //   //  {id:1,name:"k",role:"Fronted",image:"https://randomuser.me/api/portraits/women/66.jpg"},
@@ -105,7 +106,7 @@ function App() {
     <>
     
    
-   <Exercise3 /> 
+   <MyForm />
     
 
 
