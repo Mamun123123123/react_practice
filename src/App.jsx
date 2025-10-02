@@ -18,6 +18,9 @@ import Counter from './components/Counter'
 import Team_list from './components/Team_list'
 import Quize from './components/Quize'
 import Sum from './async'
+import M from './map'
+import To_do from './to_do'
+import Exercise2 from './Event/Exercise2'
 import { useState } from 'react'
 // const members = [
 //   //  {id:1,name:"k",role:"Fronted",image:"https://randomuser.me/api/portraits/women/66.jpg"},
@@ -100,10 +103,9 @@ function App() {
   // }
   return (
     <>
-
-    <Sum />
-
-
+    
+   
+   <Exercise2 /> 
     
 
 
