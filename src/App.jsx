@@ -23,7 +23,7 @@ import To_do from './to_do'
 import Exercise5 from './Event/Exercise5'
 import MyForm from './Form/MyForm'
 import CrudApp from './Event/Exercise6'
-import Exercise1 from './Crud_App/Exercise1'
+import Exercise3 from './Crud_App/Exercise3'
 import { useState } from 'react'
 // const members = [
 //   //  {id:1,name:"k",role:"Fronted",image:"https://randomuser.me/api/portraits/women/66.jpg"},
@@ -107,7 +107,7 @@ function App() {
   return (
     <>
     
-   <Exercise1 />
+   <Exercise3 />
     
 
 
