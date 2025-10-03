@@ -24,6 +24,7 @@ import Exercise5 from './Event/Exercise10'
 import MyForm from './Form/MyForm'
 import CrudApp from './Event/Exercise6'
 import Objects_handle from './Crud_App/object'
+import Object_list from './Crud_App/Object_list'
 import { useState } from 'react'
 // const members = [
 //   //  {id:1,name:"k",role:"Fronted",image:"https://randomuser.me/api/portraits/women/66.jpg"},
@@ -108,9 +109,9 @@ function App() {
     <>
     
    
-    <Objects_handle />
+    {/* <Objects_handle /> */}
 
-
+  <Object_list />
 
 
 
