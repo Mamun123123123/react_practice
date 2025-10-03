@@ -28,6 +28,7 @@ import Object_list from './Crud_App/Object_list'
 import { useState } from 'react'
 import Delete from './Crud_App/Delete'
 import Voter from './Intern/Voter'
+import Basic_controlled from './Form/Basic_controlled'
 import Delete_Str from './Crud_App/Delete_Str'
 // const members = [
 //   //  {id:1,name:"k",role:"Fronted",image:"https://randomuser.me/api/portraits/women/66.jpg"},
@@ -114,7 +115,7 @@ function App() {
    
     {/* <Objects_handle /> */}
 
-  <Voter />
+   <Basic_controlled /> 
 
 
 
