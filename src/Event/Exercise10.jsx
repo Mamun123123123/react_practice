@@ -1,7 +1,7 @@
 import { useState } from "react";
 import React from 'react'
 
-const Exercise5 = () => {
+const Exercise10 = () => {
     const [city,setCity] = useState("")
   return (
     <div>
@@ -16,4 +16,4 @@ const Exercise5 = () => {
   )
 }
 
-export default Exercise5
+export default Exercise10

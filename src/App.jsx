@@ -20,10 +20,10 @@ import Quize from './components/Quize'
 import Sum from './async'
 import M from './map'
 import To_do from './to_do'
-import Exercise5 from './Event/Exercise5'
+import Exercise5 from './Event/Exercise10'
 import MyForm from './Form/MyForm'
 import CrudApp from './Event/Exercise6'
-import Exercise3 from './Crud_App/Exercise3'
+import Objects_handle from './Crud_App/object'
 import { useState } from 'react'
 // const members = [
 //   //  {id:1,name:"k",role:"Fronted",image:"https://randomuser.me/api/portraits/women/66.jpg"},
@@ -107,8 +107,8 @@ function App() {
   return (
     <>
     
-   <Exercise3 />
-    
+   
+    <Objects_handle />
 
 
 
