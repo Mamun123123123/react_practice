@@ -26,6 +26,8 @@ import CrudApp from './Event/Exercise6'
 import Objects_handle from './Crud_App/object'
 import Object_list from './Crud_App/Object_list'
 import { useState } from 'react'
+import Delete from './Crud_App/Delete'
+import Delete_Str from './Crud_App/Delete_Str'
 // const members = [
 //   //  {id:1,name:"k",role:"Fronted",image:"https://randomuser.me/api/portraits/women/66.jpg"},
 //   {id:2,name:"L",role:"F",image:"https://randomuser.me/api/portraits/women/63.jpg"},
@@ -111,7 +113,7 @@ function App() {
    
     {/* <Objects_handle /> */}
 
-  <Object_list />
+  <Delete_Str />
 
 
 
