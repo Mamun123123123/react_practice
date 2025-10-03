@@ -24,14 +24,14 @@ const Voter = () => {
          placeholder="Enter your age"
          onChange={e=>setAge(e.target.value)}
          />
-         <button onClick={handleCheck}>Check</button>
+         <button onClick={handleCheck} className="p-2 bg-amber-100 ">Check</button>
           {check && (
             <>
             <h1>Vote Now</h1>
             <div>
-              <button onClick={handleVoteA}>Vote A</button>
+              <button onClick={handleVoteA} className="p-2 bg-amber-100 ">Vote A</button>
              <p>{countA}</p>
-             <button onClick={handleVoteB} >Vote B</button>
+             <button onClick={handleVoteB} className="p-2 bg-amber-100 ">Vote B</button>
              <p>{countB}</p>
             </div>
              <div>
