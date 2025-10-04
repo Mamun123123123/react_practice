@@ -28,6 +28,7 @@ import Object_list from './Crud_App/Object_list'
 import { useState } from 'react'
 import Delete from './Crud_App/Delete'
 import Voter from './Intern/Voter'
+import Form_crud from './Crud_App/form_crud'
 import Basic_controlled from './Form/Basic_controlled'
 import Delete_Str from './Crud_App/Delete_Str'
 // const members = [
@@ -115,7 +116,7 @@ function App() {
    
     {/* <Objects_handle /> */}
 
-   <Basic_controlled /> 
+   <Form_crud /> 
 
 
 

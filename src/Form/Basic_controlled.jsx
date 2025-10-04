@@ -25,12 +25,7 @@ const Basic_controlled = () => {
       updatedData[editIndex] = formData;
       setShowData(updatedData);
       setEditIndex(null);
-    } else {
-      
-      setShowData([...showData, formData]);
-    }
-
-    setFormData({ name: "", age: "", email: "", city: "" }); 
+    } 
   };
 
 
