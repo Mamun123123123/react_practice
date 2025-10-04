@@ -116,7 +116,7 @@ function App() {
    
     {/* <Objects_handle /> */}
 
-   <Form_crud /> 
+   <Voter /> 
 
 
 
