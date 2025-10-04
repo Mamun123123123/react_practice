@@ -27,6 +27,7 @@ import Objects_handle from './Crud_App/object'
 import Object_list from './Crud_App/Object_list'
 import { useState } from 'react'
 import Delete from './Crud_App/Delete'
+import Example3 from './useRef/Practice3'
 import Voter from './Intern/Voter'
 import Form_crud from './Crud_App/form_crud'
 import Basic_controlled from './Form/Basic_controlled'
@@ -119,7 +120,7 @@ function App() {
    
     {/* <Objects_handle /> */}
 
-   <Form_Create /> 
+   <Example3 /> 
 
 
 

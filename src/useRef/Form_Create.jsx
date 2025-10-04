@@ -18,30 +18,31 @@ export default function App() {
     "website",
   ];
 
-  const handleChange = (e) => {
-    inputsRef.current[e.target.name] = e.target.value;
-  };
-
   const handleSubmit = (e) => {
     e.preventDefault();
-    const newUser = { ...inputsRef.current };
+
+
+    const newUser = {};
+    fields.forEach((field) => {
+      newUser[field] = inputsRef.current[field + "_ref"]?.value || "";
+    });
 
     if (editingIndex !== null) {
-      // update
+
       setUsers((prev) =>
         prev.map((user, index) => (index === editingIndex ? newUser : user))
       );
       setEditingIndex(null);
     } else {
-      // add
+
       setUsers((prev) => [...prev, newUser]);
     }
 
-    // clear values
+  
     fields.forEach((field) => {
-      if (inputsRef.current[field]) inputsRef.current[field] = "";
-      if (inputsRef.current[field + "_ref"])
+      if (inputsRef.current[field + "_ref"]) {
         inputsRef.current[field + "_ref"].value = "";
+      }
     });
   };
 
@@ -49,11 +50,11 @@ export default function App() {
     const user = users[index];
     setEditingIndex(index);
 
+  
     fields.forEach((field) => {
       if (inputsRef.current[field + "_ref"]) {
         inputsRef.current[field + "_ref"].value = user[field] || "";
       }
-      inputsRef.current[field] = user[field] || "";
     });
   };
 
@@ -77,7 +78,6 @@ export default function App() {
             name={field}
             placeholder={`Enter ${field}`}
             className="w-full border p-2 mb-3 rounded"
-            onChange={handleChange}
             ref={(el) => (inputsRef.current[field + "_ref"] = el)}
           />
         ))}
@@ -106,12 +106,14 @@ export default function App() {
                 ))}
                 <div className="mt-2 flex gap-2">
                   <button
+                    type="button"
                     onClick={() => handleEdit(index)}
                     className="bg-yellow-400 px-2 py-1 rounded hover:bg-yellow-500"
                   >
                     Edit
                   </button>
                   <button
+                    type="button"
                     onClick={() => handleDelete(index)}
                     className="bg-red-500 px-2 py-1 rounded text-white hover:bg-red-600"
                   >
