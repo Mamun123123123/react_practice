@@ -32,6 +32,7 @@ import Form_crud from './Crud_App/form_crud'
 import Basic_controlled from './Form/Basic_controlled'
 import Delete_Str from './Crud_App/Delete_Str'
 import Input from './useRef/Input'
+import Form_Create from './useRef/Form_Create'
 import Form_using_useRef from './useRef/Form_using_useRef'
 // const members = [
 //   //  {id:1,name:"k",role:"Fronted",image:"https://randomuser.me/api/portraits/women/66.jpg"},
@@ -118,7 +119,7 @@ function App() {
    
     {/* <Objects_handle /> */}
 
-   <Form_using_useRef /> 
+   <Form_Create /> 
 
 
 
