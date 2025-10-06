@@ -36,6 +36,7 @@ import Input from './useRef/Input'
 import Form_Create from './useRef/Form_Create'
 import Form_using_useRef from './useRef/Form_using_useRef'
 import ControlledForm from './Intern/ControlledForm'
+import BMICalculator from './Intern/BMI'
 // const members = [
 //   //  {id:1,name:"k",role:"Fronted",image:"https://randomuser.me/api/portraits/women/66.jpg"},
 //   {id:2,name:"L",role:"F",image:"https://randomuser.me/api/portraits/women/63.jpg"},
@@ -121,7 +122,7 @@ function App() {
    
     {/* <Objects_handle /> */}
 
-    <ControlledForm />
+    <BMICalculator />
 
 
 
