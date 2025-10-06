@@ -38,6 +38,10 @@ import Form_using_useRef from './useRef/Form_using_useRef'
 import ControlledForm from './Intern/ControlledForm'
 import BMICalculator from './Intern/BMI'
 import  Form_F  from './useRef/Form_Practice'
+import RS1 from './USE_REF_STSTE/RS1'
+
+
+
 // const members = [
 //   //  {id:1,name:"k",role:"Fronted",image:"https://randomuser.me/api/portraits/women/66.jpg"},
 //   {id:2,name:"L",role:"F",image:"https://randomuser.me/api/portraits/women/63.jpg"},
@@ -123,7 +127,7 @@ function App() {
    
     {/* <Objects_handle /> */}
 
-    <Form_F />
+    <RS1 />
 
 
 
