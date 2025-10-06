@@ -38,7 +38,7 @@ import Form_using_useRef from './useRef/Form_using_useRef'
 import ControlledForm from './Intern/ControlledForm'
 import BMICalculator from './Intern/BMI'
 import  Form_F  from './useRef/Form_Practice'
-import RS2 from './USE_REF_STSTE/RS2'
+import RF1 from './USE_REF_STSTE/RF1'
 
 
 
@@ -127,7 +127,7 @@ function App() {
    
     {/* <Objects_handle /> */}
 
-    <RS2 />
+    <RF1 />
 
 
 
