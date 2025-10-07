@@ -10,6 +10,9 @@ const Ob4 = () => {
     const sorted = [...sorta].sort((a,b)=>a.age-b.age)
     setsorta(sorted)
     }
+    const Delete= (index) => {
+         setsorta(people.filter((_,i)=>i!==index))
+    }
     return (
     <div>
       <h1>Sort Object by age</h1>
@@ -20,8 +23,12 @@ const Ob4 = () => {
                 return (
                     <li key={index}>
                         {index+1}: {item.name} - {item.age}
+                      <button onClick={() => Delete(index)}>Delete</button>
+                         
                     </li>
+                    
                 )
+                
             })
         }
       </ul>
