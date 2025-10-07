@@ -39,8 +39,8 @@ import ControlledForm from './Intern/ControlledForm'
 import BMICalculator from './Intern/BMI'
 import  Form_F  from './useRef/Form_Practice'
 import RF1 from './USE_REF_STSTE/RF1'
-
-
+import FruitGallery from './Object/j'
+import Ob1 from './Object/ob'
 
 // const members = [
 //   //  {id:1,name:"k",role:"Fronted",image:"https://randomuser.me/api/portraits/women/66.jpg"},
@@ -127,7 +127,7 @@ function App() {
    
     {/* <Objects_handle /> */}
 
-    <RF1 />
+    <Ob1 />
 
 
 

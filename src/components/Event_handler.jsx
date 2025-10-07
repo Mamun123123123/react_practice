@@ -4,7 +4,7 @@ import { useState } from 'react'
 const Event_handler = () => {
     const [count,setCount] = useState(0)
     const Event = () => {
-    // alert("Hello")
+
     setCount(count + 1)
 }
   return (
