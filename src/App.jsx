@@ -41,7 +41,7 @@ import  Form_F  from './useRef/Form_Practice'
 import RF1 from './USE_REF_STSTE/RF1'
 import FruitGallery from './Object/j'
 import Ob2 from './Object/ob2'
-import Ob3 from './Object/Ob3'
+import Ob4 from './Object/Ob4'
 import EventTable from './Intern/table'
 // const members = [
 //   //  {id:1,name:"k",role:"Fronted",image:"https://randomuser.me/api/portraits/women/66.jpg"},
@@ -128,7 +128,7 @@ function App() {
    
     {/* <Objects_handle /> */}
 
-    <Ob3 />
+    <Ob4 />
 
 
 

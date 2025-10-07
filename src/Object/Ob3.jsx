@@ -6,7 +6,7 @@ const people = [
 ]
 const Ob3 = () => {
     const [search,setSearch] = useState("")
-    const filtered = people.filter(item => item.name.toLowerCase().includes(search.toLowerCase()))
+    const filtered =search? people.filter(item => item.name.charAt(0).toLowerCase().includes(search.toLowerCase())) : people ;
   return (
     <div>
      <h2>Search Object</h2>
