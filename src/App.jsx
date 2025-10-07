@@ -149,7 +149,7 @@ function App() {
           ✅ Your Score: {score} / {ob.length}
         </div>
       ) : (
-      <Quize
+      <Quize 
         question={ob[index].question}
         option1={ob[index].option1}
         option2={ob[index].option2}
