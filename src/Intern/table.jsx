@@ -43,7 +43,7 @@ const EventTable = () => {
     <div>
       <h2>Add Event</h2>
       <form onSubmit={handleSubmit}>
-        <input type="text" ref={titleRef} placeholder="Title" required /> <br />
+        <input type="text" ref={titleRef} placeholder="Title" required /> <br />            
         <input type="text" ref={descRef} placeholder="Description" required /> <br />
         <input type="datetime-local" ref={dateTimeRef} required /> <br />
         <input type="text" ref={locationRef} placeholder="Location" required /> <br />

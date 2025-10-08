@@ -130,6 +130,7 @@ function App() {
     {/* <Objects_handle /> */}
 
     <EventTable />
+    {/* <BMICalculator /> */}
 
 
 
