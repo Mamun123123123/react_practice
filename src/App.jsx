@@ -129,7 +129,7 @@ function App() {
    
     {/* <Objects_handle /> */}
 
-    <Ob5 />
+    <EventTable />
 
 
 
