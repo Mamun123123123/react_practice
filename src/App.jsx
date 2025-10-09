@@ -44,6 +44,7 @@ import Ob2 from './Object/ob2'
 import Ob4 from './Object/Ob4'
 import Ob5 from './Object/Ob5'
 import EventTable from './Intern/table'
+import Counter100 from './UseMemo/Counter'
 // const members = [
 //   //  {id:1,name:"k",role:"Fronted",image:"https://randomuser.me/api/portraits/women/66.jpg"},
 //   {id:2,name:"L",role:"F",image:"https://randomuser.me/api/portraits/women/63.jpg"},
@@ -129,8 +130,9 @@ function App() {
    
     {/* <Objects_handle /> */}
 
-    <EventTable />
+    {/* <EventTable /> */}
     {/* <BMICalculator /> */}
+    <Counter100 />
 
 
 
