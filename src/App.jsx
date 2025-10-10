@@ -1,4 +1,4 @@
-
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import List from './components/List'
 import Show from './components/Map'
 import Reduce from "./components/Reduce"
@@ -48,6 +48,7 @@ import Counter100 from './UseMemo/Counter'
 import Search from './UseMemo/Search'
 import UserCrud from './UseMemo/user_Management'
 import Navbar from './Project/Navbar'
+import Home from './Project/Home'
 // const members = [
 //   //  {id:1,name:"k",role:"Fronted",image:"https://randomuser.me/api/portraits/women/66.jpg"},
 //   {id:2,name:"L",role:"F",image:"https://randomuser.me/api/portraits/women/63.jpg"},
@@ -131,9 +132,15 @@ function App() {
     <>
     
    
-    <Navbar />
-
-
+    <Router>
+      <Navbar /> 
+      
+      <Routes>
+        <Route path="/H" element={<Home />} />
+        
+        <Route path="/My" element={<MyForm />} /> 
+      </Routes>
+    </Router>
 
 
 

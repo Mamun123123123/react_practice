@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -7,12 +8,12 @@ const Navbar = () => {
         <h1 className="text-2xl font-bold tracking-wide">OrganicTrace</h1>
 
         <ul className="hidden md:flex space-x-6">
-          <li><a href="#" className="hover:text-yellow-300">Home</a></li>
-          <li><a href="#" className="hover:text-yellow-300">About</a></li>
-          <li><a href="#" className="hover:text-yellow-300">Farmers</a></li>
-          <li><a href="#" className="hover:text-yellow-300">Processors</a></li>
-          <li><a href="#" className="hover:text-yellow-300">Trace Product</a></li>
-          <li><a href="#" className="hover:text-yellow-300">Contact</a></li>
+          <li><Link to="/H" className="hover:text-yellow-300">Home</Link></li>
+          <li><Link to="/about" className="hover:text-yellow-300">About</Link></li>
+          <li><Link to="/farmers" className="hover:text-yellow-300">Farmers</Link></li>
+          <li><Link to="/processors" className="hover:text-yellow-300">Processors</Link></li>
+          <li><Link to="/trace" className="hover:text-yellow-300">Trace Product</Link></li>
+          <li><Link to="/My" className="hover:text-yellow-300">Contact</Link></li>
         </ul>
 
         <button className="bg-white text-green-700 px-4 py-2 rounded-lg font-semibold hover:bg-yellow-300">
@@ -23,4 +24,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar
+export default Navbar;
