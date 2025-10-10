@@ -9,7 +9,7 @@ export default function E2() {
   const [count, setCount] = useState(0);
 
   const handleClick = useCallback(() => {
-    setCount((c) => c + 1);
+    setCount((e) => e + 1);
   }, []);
 
   return (
