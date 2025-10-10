@@ -50,6 +50,7 @@ import UserCrud from './UseMemo/user_Management'
 import Navbar from './Project/Navbar'
 import Home from './Project/Home'
 import ExpensiveCalculator from "./Intern/UseMemo";
+import E from "./useCallback/E";
 // const members = [
 //   //  {id:1,name:"k",role:"Fronted",image:"https://randomuser.me/api/portraits/women/66.jpg"},
 //   {id:2,name:"L",role:"F",image:"https://randomuser.me/api/portraits/women/63.jpg"},
@@ -145,7 +146,7 @@ function App() {
 
 
 
-   <ExpensiveCalculator />
+   <E />
 
 
 
