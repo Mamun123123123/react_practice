@@ -49,6 +49,7 @@ import Search from './UseMemo/Search'
 import UserCrud from './UseMemo/user_Management'
 import Navbar from './Project/Navbar'
 import Home from './Project/Home'
+import ExpensiveCalculator from "./Intern/UseMemo";
 // const members = [
 //   //  {id:1,name:"k",role:"Fronted",image:"https://randomuser.me/api/portraits/women/66.jpg"},
 //   {id:2,name:"L",role:"F",image:"https://randomuser.me/api/portraits/women/63.jpg"},
@@ -132,7 +133,7 @@ function App() {
     <>
     
    
-    <Router>
+    {/* <Router>
       <Navbar /> 
       
       <Routes>
@@ -140,11 +141,11 @@ function App() {
         
         <Route path="/My" element={<MyForm />} /> 
       </Routes>
-    </Router>
+    </Router> */}
 
 
 
-
+   <ExpensiveCalculator />
 
 
 
