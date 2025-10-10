@@ -53,6 +53,7 @@ import ExpensiveCalculator from "./Intern/UseMemo";
 import E from "./useCallback/E";
 import E1 from "./useCallback/E1";
 import E2 from "./useCallback/E2";
+import E3 from "./useCallback/E3";
 // const members = [
 //   //  {id:1,name:"k",role:"Fronted",image:"https://randomuser.me/api/portraits/women/66.jpg"},
 //   {id:2,name:"L",role:"F",image:"https://randomuser.me/api/portraits/women/63.jpg"},
@@ -146,9 +147,10 @@ function App() {
       </Routes>
     </Router> */}
 
-
-
-   <E2 />
+   {/* <E /> */}
+   {/* <E1 /> */}
+   {/* <E2 /> */}
+   <E3 />
 
 
 

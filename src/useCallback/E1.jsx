@@ -2,6 +2,8 @@ import React, { useState, useCallback } from "react";
 
 function Child({ onClick }) {
   console.log("Child render");
+  console.log(onClick);
+  
   return <button onClick={onClick}>Click Me</button>;
 }
 
