@@ -47,6 +47,7 @@ import EventTable from './Intern/table'
 import Counter100 from './UseMemo/Counter'
 import Search from './UseMemo/Search'
 import UserCrud from './UseMemo/user_Management'
+import Navbar from './Project/Navbar'
 // const members = [
 //   //  {id:1,name:"k",role:"Fronted",image:"https://randomuser.me/api/portraits/women/66.jpg"},
 //   {id:2,name:"L",role:"F",image:"https://randomuser.me/api/portraits/women/63.jpg"},
@@ -130,7 +131,7 @@ function App() {
     <>
     
    
-    <UserCrud />
+    <Navbar />
 
 
 
