@@ -55,6 +55,8 @@ import E1 from "./useCallback/E1";
 import E2 from "./useCallback/E2";
 import E3 from "./useCallback/E3";
 import Mixed from "./Intern/Mixed";
+import ProductListing from "./Project/O";
+import Step1 from "./Big/Step1";
 // const members = [
 //   //  {id:1,name:"k",role:"Fronted",image:"https://randomuser.me/api/portraits/women/66.jpg"},
 //   {id:2,name:"L",role:"F",image:"https://randomuser.me/api/portraits/women/63.jpg"},
@@ -152,7 +154,7 @@ function App() {
    {/* <E1 /> */}
    {/* <E2 /> */}
    {/* <E3 /> */}
-   <Mixed />
+   <Step1 />
 
 
 
