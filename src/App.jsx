@@ -60,6 +60,7 @@ import Step1 from "./Big/Step1";
 import Step2 from "./Big/Step2";
 import Step3 from "./Big/Step3";
 import CartExample from "./Big/Step4";
+import Step5 from "./Big/Step5";
 // const members = [
 //   //  {id:1,name:"k",role:"Fronted",image:"https://randomuser.me/api/portraits/women/66.jpg"},
 //   {id:2,name:"L",role:"F",image:"https://randomuser.me/api/portraits/women/63.jpg"},
@@ -160,7 +161,8 @@ function App() {
    {/* <Step1 /> */}
    {/* <Step2 /> */}
    {/* <Step3 /> */}
-  <CartExample />
+  {/* <CartExample /> */}
+  <Step5 />
 
 
     
