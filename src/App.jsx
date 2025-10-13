@@ -61,6 +61,8 @@ import Step2 from "./Big/Step2";
 import Step3 from "./Big/Step3";
 import CartExample from "./Big/Step4";
 import Step5 from "./Big/Step5";
+import Bio from "./Hudai/Bio";
+import Toggole from "./Hudai/Toggole";
 // const members = [
 //   //  {id:1,name:"k",role:"Fronted",image:"https://randomuser.me/api/portraits/women/66.jpg"},
 //   {id:2,name:"L",role:"F",image:"https://randomuser.me/api/portraits/women/63.jpg"},
@@ -162,7 +164,8 @@ function App() {
    {/* <Step2 /> */}
    {/* <Step3 /> */}
   {/* <CartExample /> */}
-  <Step5 />
+  {/* <Step5 /> */}
+  <Toggole />
 
 
     
