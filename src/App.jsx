@@ -64,6 +64,7 @@ import Step5 from "./Big/Step5";
 import Bio from "./Hudai/Bio";
 import Toggole from "./Hudai/Toggole";
 import U from "./Hudai/U";
+import Timer from "./Hudai/Timer";
 // const members = [
 //   //  {id:1,name:"k",role:"Fronted",image:"https://randomuser.me/api/portraits/women/66.jpg"},
 //   {id:2,name:"L",role:"F",image:"https://randomuser.me/api/portraits/women/63.jpg"},
@@ -157,17 +158,8 @@ function App() {
       </Routes>
     </Router> */}
 
-   {/* <E /> */}
-   {/* <E1 /> */}
-   {/* <E2 /> */}
-   {/* <E3 /> */}
-   {/* <Step1 /> */}
-   {/* <Step2 /> */}
-   {/* <Step3 /> */}
-  {/* <CartExample /> */}
-  {/* <Step5 /> */}
-  {/* <Toggole /> */}
-  <U />
+   
+  <Timer />
 
 
     
