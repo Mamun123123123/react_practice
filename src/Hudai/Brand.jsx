@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useSearchParams } from 'react-router-dom'
+
 
 const Brand = () => {
     const [car,setCar] = useState({
