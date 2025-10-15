@@ -66,6 +66,7 @@ import Toggole from "./Hudai/Toggole";
 import U from "./Hudai/U";
 import Timer from "./Hudai/Timer";
 import LoadingExample from "./Hudai/A";
+import Change from "./Hudai/Change";
 // const members = [
 //   //  {id:1,name:"k",role:"Fronted",image:"https://randomuser.me/api/portraits/women/66.jpg"},
 //   {id:2,name:"L",role:"F",image:"https://randomuser.me/api/portraits/women/63.jpg"},
@@ -148,7 +149,7 @@ function App() {
   return (
     <>
     
-    <Mixed />
+    <Change />
     {/* <Router>
       <Navbar /> 
       
