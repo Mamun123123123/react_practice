@@ -67,6 +67,7 @@ import U from "./Hudai/U";
 import Timer from "./Hudai/Timer";
 import LoadingExample from "./Hudai/A";
 import Change from "./Hudai/Change";
+import Brand from "./Hudai/Brand";
 // const members = [
 //   //  {id:1,name:"k",role:"Fronted",image:"https://randomuser.me/api/portraits/women/66.jpg"},
 //   {id:2,name:"L",role:"F",image:"https://randomuser.me/api/portraits/women/63.jpg"},
@@ -149,7 +150,7 @@ function App() {
   return (
     <>
     
-    <Change />
+    <Brand />
     {/* <Router>
       <Navbar /> 
       
