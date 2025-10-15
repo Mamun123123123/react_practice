@@ -148,7 +148,7 @@ function App() {
   return (
     <>
     
-    <LoadingExample />
+    <Mixed />
     {/* <Router>
       <Navbar /> 
       
