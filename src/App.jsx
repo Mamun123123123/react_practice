@@ -153,7 +153,7 @@ function App() {
   return (
     <>
     
-    <A2 />
+    <Voter />
 
 
 
