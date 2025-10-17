@@ -19,7 +19,7 @@ export default function ExpensiveCalculator() {
 
   return (
     <div style={style}>
-      <h2>🧮 Expensive Calculator</h2>
+      <h2>Expensive Calculator</h2>
       <input
         type="number"
         value={number}

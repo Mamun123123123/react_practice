@@ -9,7 +9,7 @@ import Sums from './components/Destructuring1'
 import Ages from './components/Ternary'
 import Button from './components/Button'
 import Buttonn from './components/Arrow_function'
-
+import axios from "axios"
 import AdminPanel from './components/AdminPanel'
 import Login_from from './components/Login_from'
 import List_item from './components/List_item'
@@ -69,6 +69,7 @@ import LoadingExample from "./Hudai/A";
 import Change from "./Hudai/Change";
 import Brand from "./Hudai/Brand";
 import Another from "./Hudai/Another";
+import Users from "./axios/A1";
 // const members = [
 //   //  {id:1,name:"k",role:"Fronted",image:"https://randomuser.me/api/portraits/women/66.jpg"},
 //   {id:2,name:"L",role:"F",image:"https://randomuser.me/api/portraits/women/63.jpg"},
@@ -151,7 +152,24 @@ function App() {
   return (
     <>
     
-    <Another />
+    <Users />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     {/* <Router>
       <Navbar /> 
       
