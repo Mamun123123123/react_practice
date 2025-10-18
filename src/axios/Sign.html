@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+<body class="bg-sky-300">
+    <div class=" flex m-50 shadow-2xl rounded-4xl ">
+        <div class="bg-slate-50 p-8 flex flex-col items-center w-full rounded-l-4xl">
+            <h1 class="font-bold text-2xl p-2">Sign in</h1>
+            <div class="flex gap-3 p-4 ">
+                <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="" class="rounded-full border p-2 w-10 border-sky-400">
+                <img src="https://images.seeklogo.com/logo-png/29/2/dribbble-ball-mark-logo-png_seeklogo-291995.png" alt=""  class="rounded-full border p-3 w-10 border-sky-400">
+                <img src="data:image/png;base64,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" alt=""  class="rounded-full border p-2 w-10 border-sky-400">
+            </div>
+            <p class="font-sans p-2">Or sign in using E-Mail Address</p>
+            <input type="email" placeholder="Email" class="border w-70 rounded-2xl p-2 m-2 bg-gray-300">
+            <input type="password" placeholder="Password" class="border w-70 rounded-2xl p-2 m-2 bg-gray-300">
+            <h3 class="p-2">Forgot your password?</h3>
+            <button class="bg-sky-600  rounded-3xl p-2 text-white w-30">SIGN IN</button>
+        </div>
+        <div class="bg-sky-600 w-full flex flex-col items-center rounded-r-4xl">
+            <h1 class="text-white text-3xl font-bold pt-30">Create,</h1>
+            <h1 class="text-white text-3xl font-bold">Account!</h1>
+            <p class="p-4 text-white font-sans">Sign up if you still don't have an account</p>
+            <button class="border border-amber-100 text-center w-30 rounded-3xl p-1 text-white">SIGN UP</button>
+        </div>
+    </div>
+    
+</body>
+</html>
