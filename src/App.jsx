@@ -72,6 +72,7 @@ import Another from "./Hudai/Another";
 import Users from "./axios/A1";
 import A2 from "./axios/A2";
 import A3 from "./axios/A3";
+import Student from "./Hudai/Student";
 // const members = [
 //   //  {id:1,name:"k",role:"Fronted",image:"https://randomuser.me/api/portraits/women/66.jpg"},
 //   {id:2,name:"L",role:"F",image:"https://randomuser.me/api/portraits/women/63.jpg"},
@@ -154,7 +155,7 @@ function App() {
   return (
     <>
     
-    <A3 />
+    <Student />
 
 
 
