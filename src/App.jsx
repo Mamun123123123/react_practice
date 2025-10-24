@@ -75,6 +75,7 @@ import A3 from "./axios/A3";
 import Student from "./Hudai/Student";
 import { Type1 } from "./ALL_Fazil/Type1";
 import { Tyepe2 } from "./ALL_Fazil/Tyepe2";
+import { Type3 } from "./ALL_Fazil/Type3";
 // const members = [
 //   //  {id:1,name:"k",role:"Fronted",image:"https://randomuser.me/api/portraits/women/66.jpg"},
 //   {id:2,name:"L",role:"F",image:"https://randomuser.me/api/portraits/women/63.jpg"},
@@ -157,7 +158,7 @@ function App() {
   return (
     <>
     
-    <Tyepe2 />
+    <Type3 />
 
 
 
