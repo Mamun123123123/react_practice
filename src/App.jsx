@@ -76,6 +76,7 @@ import Student from "./Hudai/Student";
 import { Type1 } from "./ALL_Fazil/Type1";
 import { Tyepe2 } from "./ALL_Fazil/Tyepe2";
 import { Type3 } from "./ALL_Fazil/Type3";
+import { Type4 } from "./ALL_Fazil/Type4";
 // const members = [
 //   //  {id:1,name:"k",role:"Fronted",image:"https://randomuser.me/api/portraits/women/66.jpg"},
 //   {id:2,name:"L",role:"F",image:"https://randomuser.me/api/portraits/women/63.jpg"},
@@ -158,7 +159,7 @@ function App() {
   return (
     <>
     
-    <Type3 />
+    <Type4 />
 
 
 
