@@ -88,6 +88,12 @@
 
 
 // ]
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./Router/Navbar";
+import Home from "./Router/Home";
+import About from "./Router/About";
+import Contact from "./Router/Contact";
 import Login from "./Context_Component/Login"
 import Profile from "./Context_Component/Profile"
 import UserContextProvider from "./mini_project/UserContextProvider"
@@ -164,12 +170,21 @@ function App() {
   return (
     <>
     
-    <UserContextProvider>
+    {/* <UserContextProvider>
       <Login />
       <Profile />
-    </UserContextProvider>
+    </UserContextProvider> */}
 
-
+    <Router>
+      <Navbar />
+      <div style={{ padding: "30px", textAlign: "center" }}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </div>
+    </Router>
 
 
 
